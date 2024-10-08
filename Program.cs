@@ -162,6 +162,8 @@
 //int index = Array.IndexOf(arr, 50);
 //Console.WriteLine(index);
 
+
+//construtor example
 using ConsoleAppCsharpBasics;
 
 ParameterizedConstructor obj1 = new ParameterizedConstructor(10);
@@ -169,4 +171,3 @@ obj1.Display();
 //ParameterizedConstructor obj2 = new ParameterizedConstructor(20);
 ParameterizedConstructor obj2 = new ParameterizedConstructor(obj1);
 obj2.Display();
-Console.ReadKey();
